@@ -37,15 +37,15 @@
 	<div class="panel">
 		<p>Dough Prep Information</p>
 		<div class="form-group">
-			<input type="number" placeholder="No. of Pizza" data-wp-on--keyup="actions.pizzas">
+			<input type="number" placeholder="No. of Pizza" data-wp-on--keyup="actions.pizzas" data-wp-on--change="actions.pizzas">
 		</div>
 
 		<div class="form-group">
-			<input type="number" placeholder="Weight of doughball (g)" data-wp-on--keyup="actions.weight">
+			<input type="number" placeholder="Weight of doughball (g)" data-wp-on--keyup="actions.weight" data-wp-on--change="actions.weight">
 		</div>
 
 		<div class="form-group">
-			<input type="number" name="hydration" placeholder="Hydration (%)" data-wp-on--keyup="actions.hydration">
+			<input type="number" name="hydration" placeholder="Hydration (%)" data-wp-on--keyup="actions.hydration" data-wp-on--change="actions.hydration">
 		</div>
 	</div>
 
